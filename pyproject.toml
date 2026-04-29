@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtgplots"
+version = "0.1.0"
+description = "Custom Matplotlib styles for scientific figures"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib",
+    "numpy"
+]
+
+[tool.setuptools.package-data]
+mtgplots = ["styles/*.mplstyle"]
