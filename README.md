@@ -2,8 +2,8 @@
 Custom Matplotlib styles
 
 ## Download
-''' bash
+```bash
 git clone https://github.com/naimzu/mtgplots.git
 cd mtgplots
 pip install -e .
-'''
+```
